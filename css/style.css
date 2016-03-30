@@ -1,0 +1,32 @@
+body {
+    background-color: #383838
+}
+
+#container {
+    width: 550px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#to-do-list-div {
+    /*text-align: center;*/
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+#new-item-form {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#text-input-box {
+    font-size: 22px;
+}
+
+#submit-button {
+    /*height: 30px;*/
+    font-size: 22px;
+
+}

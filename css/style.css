@@ -8,12 +8,15 @@ body {
     margin: 0 auto;
     background-color: #fff;
     border-radius: 5px;
+    text-align: center;
+    padding-top: 30px;
 }
 
 #to-do-list-div {
     /*text-align: center;*/
     padding-top: 30px;
     padding-left: 150px;
+    text-align: left;
 }
 
 #new-item-form {

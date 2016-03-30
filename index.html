@@ -6,14 +6,18 @@
 </head>
 <body>
     <div id="container">
-        <div id="to-do-list-div"></div>
+        <h1>Things To Do:</h1>
+        <div id="to-do-list-div">
+            <ol id="to-do-list"></ol>
+        </div>
         <form id="new-item-form">
-            <input type="text" id="text-input-box" placeholder="New ToDo item..."></input>
+            <input type="text" id="text-input-box" placeholder="New ToDo item..." required></input>
             <button type="submit" id="submit-button">Add</button>
         </form>
     </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>  
 <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
